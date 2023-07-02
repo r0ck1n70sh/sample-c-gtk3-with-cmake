@@ -18,5 +18,4 @@ add_executable(out ${CMAKE_SOURCE_DIR}/main.c)
 target_link_libraries(out PRIVATE ${GTK3_LIBRARIES})
 target_include_directories(out PRIVATE ${GTK3_INCLUDE_DIRS})
 
-target_link_libraries(
-
+# don't forget to copy *.ui files to build folder
